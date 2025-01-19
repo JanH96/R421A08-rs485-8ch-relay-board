@@ -1,4 +1,6 @@
-from . R421A08 import R421A08, ModbusException
+from .R421A08 import R421A08, ModbusException
 
-__version__ = '1.0.1'
+availableBoards = ["R421A08"]
+
+__version__ = "1.0.1"
 VERSION = __version__
